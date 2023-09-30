@@ -1,0 +1,15 @@
+1) Design and develop the weather app which fetches information about weather updates from OpenWeatherMap API.
+
+2) The weather App Homepage , has Input field through which user can search weather updates of a specified location .
+
+3) The Homepage also has a button onclicking gives us the weather updates of user's current device location .
+
+4)The Weather Display , display the current weather conditions for the specified location.
+which include details such as temperature, humidity, wind speed, and weather description.
+
+5)Allow users to switch between temperature units such as  Celsius and Fahrenheit , by implementing a radio button on weather display.
+
+6)Used Try catch method to handle the error while fetching the data from fetch API .
+  and displaying a user-friendly alert if it's catching error.
+
+7) It's a fully responsive web app tried and tested on various screen size including  desktop and mobile devices.

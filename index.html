@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/a547756645.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <i class="fa-solid fa-arrow-left"></i>
+                Weather App</header>
+            <div class="Search-location">
+                <p class="info-text">Please enter a valid location</p>
+                <form id="form">
+                    <input
+                        type="text"
+                        class="input"
+                        placeholder="Enter the Location"
+                        autocomplete="off"
+                        spellcheck="false"
+                        required
+                    />
+                    <button
+                        type="submit"
+                        class="fa-sharp fa-solid fa-magnifying-glass search-button"
+                        id="searchButton"
+                    ></button>
+                </form>
+                <div class="separation"></div>
+                <div class="get-device-location">
+                    <button class="DeviceLocation">Get Device Location</button>
+                </div>
+            </div>
+            <div class="weather-body">
+                <h1 class="cityName">
+                    <i class="fa-sharp fa-solid fa-location-dot location-sign"></i>
+                    <span class="city">Delhi , IN</span>
+                </h1>
+                <h4 class="getDate">18:30 - Thursday 2023-04-27</h4>
+           <div class="weather-unit">
+            <div>
+                <input type="radio" name="weather-unit" id="celcius" value="metric">
+                <span>Celcius</span>
+            </div>
+         <div>
+            <input type="radio" name="weather-unit" id="fahrenheit" value="imperial">
+            <span>fahrenheit</span>
+         </div>
+           </div>
+                <img
+                    src="./assests/clear.png"
+                    alt="weather-Image"
+                    class="weather-image"
+                />
+                <div class="weather-box">
+                    <p class="temperature">27</p>
+                    <p class="description">Light Rain</p>
+                </div>
+
+                <div class="weather-details">
+                    <div class="humidity">
+                        <i class="fa-solid fa-droplet"></i>
+                        <div class="text">
+                            <span id="humidity">45</span>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="text">
+                            <span id="wind">12</span>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
