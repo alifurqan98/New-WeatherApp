@@ -131,17 +131,17 @@ function updateDom(
     windSpeed.innerText = `${speed} m/s`;
 
     if (id == 800) {
-        image.src = "./assests/clear.png";
+        image.src = "assests/clear.png";
     } else if (id >= 200 && id <= 232) {
-        image.src = "./assests/storm.png";
+        image.src = "assests/storm.png";
     } else if ((id >= 300 && id <= 321) || (id >= 500 && id <= 531)) {
-        image.src = "./assests/rain.png";
+        image.src = "assests/rain.png";
     } else if (id >= 600 && id <= 622) {
-        image.src = "./assests/snow.png";
+        image.src = "assests/snow.png";
     } else if (id >= 701 && id <= 781) {
-        image.src = "./assests/haze.png";
+        image.src = "assests/haze.png";
     } else if (id >= 801 && id <= 804) {
-        image.src = "./assests/cloud.png";
+        image.src = "assests/cloud.png";
     }
 }
 
