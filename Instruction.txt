@@ -9,7 +9,7 @@ which include details such as temperature, humidity, wind speed, and weather des
 
 5)Allow users to switch between temperature units such as  Celsius and Fahrenheit , by implementing a radio button on weather display.
 
-6)Used Try catch method to handle the error while fetching the data from fetch API .
+6)Used Try catch block to handle the error while fetching the data from fetch API .
   and displaying a user-friendly alert if it's catching error.
 
 7) It's a fully responsive web app tried and tested on various screen size including  desktop and mobile devices.
